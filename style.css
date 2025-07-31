@@ -292,7 +292,6 @@ a {
     display: flex;
     align-items: center;
     margin: 10px 0;
-    background-color: yellow;
 }
 .sort-by hr {
     flex: 1;
@@ -300,8 +299,19 @@ a {
     height: 1px;
     background: #ccc;
 }
+.sort-by p {
+    font-size: 13px;
+    padding-inline-start: 5px;
+}
+.sort-by p span {
+    font-weight: 600;
+    cursor: pointer;
+}
 
-
+.sort-by p span img {
+    width: 12px;
+    margin-inline-start: 3px;
+}
 
 
 
